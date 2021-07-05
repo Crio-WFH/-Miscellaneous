@@ -42,6 +42,7 @@
 #### To use twilio for sending SMS alerts set `use_twilio` to `true` and follow below steps else jump to Usage. (Credits: [@WOLFIEEEE](https://github.com/WOLFIEEEE))
 
 - [Step 3] Optional:
+ ![banner](https://logodix.com/logo/920957.png)
     - Step 1:
         To create a free trial account on twilio [https://www.twilio.com/try-twilio](url)
     - Step 2:
