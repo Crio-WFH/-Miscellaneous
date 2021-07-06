@@ -1,6 +1,6 @@
 # [MS-Teams-Automation]
 
-Video link - https://drive.google.com/file/d/1NjVhECoA5eHjq3NDfevBuQ0IYBEHCDZg/view?usp=sharing :)
+Video link - https://youtu.be/P9tZc-jVvPI :)
 
 ![banner](https://i.imgur.com/xtq5Muz.png)
 
