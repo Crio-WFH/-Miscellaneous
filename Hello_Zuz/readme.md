@@ -36,7 +36,7 @@ Has lockdown made your life very fuzzy and you feel disconnected from your frien
 ![Screenshot (252)](https://user-images.githubusercontent.com/71898741/124981468-3c174f00-e053-11eb-9f31-b3e082873b34.png)
 
 # Demo Video 🎥
-
+https://youtu.be/KqwNYAlf3C0
 
 # Contribute
 Feel Free to Contribute to the Project with extra functionalities.
