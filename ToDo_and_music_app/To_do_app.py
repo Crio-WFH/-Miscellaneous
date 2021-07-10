@@ -26,7 +26,7 @@ page = st.sidebar.radio(" ", ('Add','Update','Delete','Select Music'))
 table = pd.DataFrame([])
 
 if page == "Add":
-    st.image('https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',width = 700)
+    st.image('https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
     st.subheader("Add a task")
     col1, col2 = st.beta_columns(2)
     with col1:
@@ -102,7 +102,7 @@ elif page == "Delete":
     
     
 elif page == "Select Music":
-    st.image('https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',width = 700)
+    st.image('https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
     st.subheader("Select Soothing Music of Your Choice to Enjoy While Completing Your Tasks")
     with st.beta_expander("Nature Sounds"):
         st.video("https://www.youtube.com/watch?v=6oAdJjzXQS8", format='video/mp4')
