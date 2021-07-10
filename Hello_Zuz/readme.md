@@ -29,14 +29,10 @@ Has lockdown made your life very fuzzy and you feel disconnected from your frien
 4. Run the command npm run dev
 5. Run on localhost. A prompt will appear, enter yor name and enjoy.
 
-# ScreenShots 📸
-![Screenshot (249)](https://user-images.githubusercontent.com/71898741/124981407-299d1580-e053-11eb-995c-01dc47af02a9.png)
-![Screenshot (250)](https://user-images.githubusercontent.com/71898741/124981425-30c42380-e053-11eb-8a56-755e4fb309f8.png)
-![Screenshot (251)](https://user-images.githubusercontent.com/71898741/124981449-36ba0480-e053-11eb-8a16-4c22a4f05a09.png)
-![Screenshot (252)](https://user-images.githubusercontent.com/71898741/124981468-3c174f00-e053-11eb-9f31-b3e082873b34.png)
-
 # Demo Video 🎥
 https://youtu.be/KqwNYAlf3C0
+
+Deployment link : https://hello-zuz.herokuapp.com/
 
 # Contribute
 Feel Free to Contribute to the Project with extra functionalities.
