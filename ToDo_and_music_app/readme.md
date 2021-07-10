@@ -1,1 +1,1 @@
-
+This is a basic To do list making app made using Streamlit Framework in Python. Tasks can be added along with their status, deadline date and time. The list of tasks can be viewed and dowloaded as .CSV file. There are add, update, and delete task options. Also there is a soothing music tab where ambient relaxing music can be played while performing tasks or doing any other work.
