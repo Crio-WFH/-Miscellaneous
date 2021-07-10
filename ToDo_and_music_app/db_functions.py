@@ -8,17 +8,12 @@ Created on Sat Jul 10 18:18:58 2021
 import sqlite3
 conn = sqlite3.connect('data.db',check_same_thread=False)
 c = conn.cursor()
-
-
-
 def create_table():
 	c.execute('CREATE TABLE IF NOT EXISTS tasktable(Task TEXT,Task_type TEXT,due_date DATE,due_time INTEGER)')
-
 
 def add_data(Task,Task_type,due_date,due_time):
 	c.execute('INSERT INTO tasktable(Task,Task_type,due_date,due_time) VALUES (?,?,?,?)',(str(Task),str(Task_type),str(due_date),str(due_time)))
 	conn.commit()
-
 
 def view_all_data():
 	c.execute('SELECT * FROM tasktable')
