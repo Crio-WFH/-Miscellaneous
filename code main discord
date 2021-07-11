@@ -1,0 +1,48 @@
+import discord
+import os
+import requests
+import json
+import random
+from replit import db
+from dotenv import load_dotenv 
+
+
+load_dotenv()
+TOKEN = os.getenv("DISCARD_TOKEN")
+
+
+client = discord.Client()
+async def on_ready():
+     print(f"{client.user.name} has connected to our discord channel!")
+
+greets = ["hello", "hi", "hola", "HELLO", "Helo", "HIII"]
+
+nice_words= ["happy", "excited", "cheer", "joy", "happiness"]
+
+motivation= ["KEEP FIGHTING!", "CHEER UP", "HURRAY!"]
+
+poem = ["CINDERELLA", "SNOW WHITE", "PETER PAN", "BEAUTY AND THE BEAST", "PINOCCHIO"]
+
+
+  if any(word in msg for word in greets):
+    await message.channel.send(f" {message.author.mention}HELLO there!")
+
+  if msg.startswith("ping"):
+    await message.channel.send("pong")
+
+  if msg.startswith("ding"):
+    await message.channel.send("dong")  
+
+  if msg.startswith("First 10 numbers"): 
+    await message.channel.send("1,2,3,4,5,6,7,8,9,10") 
+    
+
+  if any(word in msg for word in nice_words):
+    await message.channel.send(random.choice(motivation))
+
+  if msg.startswith("story"):
+    await message.channel.send(random.choice(motivation))
+
+
+    
+client.run(os.getenv("TOKEN"))    
