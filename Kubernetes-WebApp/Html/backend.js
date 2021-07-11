@@ -1,67 +1,3 @@
-function dark(){
-            
-            bgelement = document.getElementById("bg");
-            bgelement.style.backgroundColor="#222222";
-            bgelement.style.color="black";
-            x=document.getElementById("output_box");
-            x.style.backgroundColor="#222222";
-            x.style.color="white";
-            a=document.getElementById("a1");
-            a.style.backgroundColor="#222222";
-            a.style.color="white";
-            b=document.getElementById("a2");
-            b.style.backgroundColor="#222222";
-            b.style.color="white";
-            c=document.getElementById("a3");
-            c.style.backgroundColor="#222222";
-            c.style.color="white";
-            d=document.getElementById("a4");
-            d.style.backgroundColor="#222222";
-            d.style.color="white";
-            e=document.getElementById("a5");
-            e.style.backgroundColor="#222222";
-            e.style.color="white";
-            f=document.getElementById("a6");
-            f.style.backgroundColor="#222222";
-            f.style.color="white";
-            g=document.getElementById("a7");
-            g.style.backgroundColor="#222222";
-            g.style.color="white";
-            i=document.getElementById("imglogo");
-            i.style.display="none";
-            
-        }  
-function white(){
-            bgelement = document.getElementById("bg");
-            bgelement.style.backgroundColor="white";
-            bgelement.style.color="black";
-            x=document.getElementById("output_box");
-            x.style.backgroundColor="white";
-            x.style.color="black";
-            a=document.getElementById("a1");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a2");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a3");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a4");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a5");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a6");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            a=document.getElementById("a7");
-            a.style.backgroundColor="white";
-            a.style.color="black";
-            i=document.getElementById("imglogo");
-            i.style.display="inline-block";
-        } 
 
 function openForm2() {
   z=document.getElementById("output_box");
@@ -170,7 +106,7 @@ function launchPod() {
 
 	console.log(i,j);
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", `http://192.168.56.101/cgi-bin/launchpod.py?x=${i}&y=${j}`,true);
+  xhr.open("GET", `http://<public-ip>/cgi-bin/launchpod.py?x=${i}&y=${j}`,true);
   xhr.send();
 
   xhr.onload = function() {
@@ -185,7 +121,7 @@ function launchDeploy() {
   var l = document.getElementById("deployment_image_name").value;
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", `http://192.168.56.101/cgi-bin/launchdeploy.py?deployname= ${k}&dimage=${l}`, true);
+  xhr.open("GET", `http://<public-ip>/cgi-bin/launchdeploy.py?deployname= ${k}&dimage=${l}`, true);
   xhr.send();
 
   xhr.onload = function() {
@@ -197,7 +133,7 @@ function delAll() {
   decision = confirm("Are you sure, you want to 'Delete' all the resources.?");
   if(decision == true){
         var xhr = new XMLHttpRequest();
-        xhr.open("GET","http://192.168.56.101/cgi-bin/delall.py",true);
+        xhr.open("GET","http://<public-ip>/cgi-bin/delall.py",true);
         xhr.send();
         xhr.onload = function() {
           document.getElementById("output_id").innerHTML = xhr.responseText;
@@ -210,7 +146,7 @@ function delPod() {
   if(decision == true){
         var m = document.getElementById("delete_pod_name").value;
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", "http://192.168.56.101/cgi-bin/delpod.py?del_podname=" + m, true);
+        xhr.open("GET", "http://<public-ip>/cgi-bin/delpod.py?del_podname=" + m, true);
         xhr.send();
         xhr.onload = function() {
           document.getElementById("output_id").innerHTML = xhr.response;
@@ -223,7 +159,7 @@ function delDeploy() {
   if(decision == true){
       var n = document.getElementById("delete_deployment_name").value;
       var xhr = new XMLHttpRequest();
-      xhr.open("GET", "http://192.168.56.101/cgi-bin/deldeploy.py?del_deployname=" + n, true);
+      xhr.open("GET", "http://<public-ip>/cgi-bin/deldeploy.py?del_deployname=" + n, true);
       xhr.send();
       xhr.onload = function() {
         document.getElementById("output_id").innerHTML = xhr.response;
@@ -237,7 +173,7 @@ function scaleReplica() {
     var o = document.getElementById("scale_name").value;
     var p = document.getElementById("replicas").value;
     var xhr = new XMLHttpRequest();
-    xhr.open("GET","http://192.168.56.101/cgi-bin/scalereplica.py?deploy_name= ${o}&replicas=${p}",true);
+    xhr.open("GET","http://<public-ip>/cgi-bin/scalereplica.py?deploy_name= ${o}&replicas=${p}",true);
     xhr.send();
 
     xhr.onload = function() {
@@ -253,7 +189,7 @@ function expose() {
   var q = document.getElementById("expose_name").value
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://192.168.56.101/cgi-bin/expose.py?del_deployname=" + q, true);
+  xhr.open("GET", "http://<public-ip>/cgi-bin/expose.py?del_deployname=" + q, true);
   xhr.send();
 
   xhr.onload = function() {
@@ -267,7 +203,7 @@ function other() {
   var cmd = document.getElementById("cmd_name").value
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://192.168.56.101/cgi-bin/kubernetes.py?x=" + cmd, true);
+  xhr.open("GET", "http://<public-ip>/cgi-bin/kubernetes.py?x=" + cmd, true);
   xhr.send();
 
   xhr.onload = function() {
