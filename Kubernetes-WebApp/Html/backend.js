@@ -133,7 +133,7 @@ function delAll() {
   decision = confirm("Are you sure, you want to 'Delete' all the resources.?");
   if(decision == true){
         var xhr = new XMLHttpRequest();
-        xhr.open("GET","http://<public-ip>/cgi-bin/delall.py",true);
+        xhr.open("GET","http://<public-ip>/cgi-bin/delete_all.py",true);
         xhr.send();
         xhr.onload = function() {
           document.getElementById("output_id").innerHTML = xhr.responseText;
@@ -146,7 +146,7 @@ function delPod() {
   if(decision == true){
         var m = document.getElementById("delete_pod_name").value;
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", "http://<public-ip>/cgi-bin/delpod.py?del_podname=" + m, true);
+        xhr.open("GET", "http://<public-ip>/cgi-bin/delete_pod.py?del_podname=" + m, true);
         xhr.send();
         xhr.onload = function() {
           document.getElementById("output_id").innerHTML = xhr.response;
@@ -159,7 +159,7 @@ function delDeploy() {
   if(decision == true){
       var n = document.getElementById("delete_deployment_name").value;
       var xhr = new XMLHttpRequest();
-      xhr.open("GET", "http://<public-ip>/cgi-bin/deldeploy.py?del_deployname=" + n, true);
+      xhr.open("GET", "http://<public-ip>/cgi-bin/delete_deployment.py?del_deployname=" + n, true);
       xhr.send();
       xhr.onload = function() {
         document.getElementById("output_id").innerHTML = xhr.response;
