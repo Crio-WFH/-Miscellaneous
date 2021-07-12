@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Kubernetes WEB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=  "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+        
+        <body id="bg" style="background-color: white; color: black;">   
+        <header class="header">
+            
+           
+            <h1 class="head">Kubernetes</h1>
+
+        </header>
+    
+
+
+       <script src="backend.js"></script>
+                <center>
+                    <button type="button" class="button button1" onclick="openForm1();">Launch Pod</button>
+                    <div class="form-popup1" id="myForm1">
+                        <div class="form-container1" id="a1">
+                    
+                          <label style="text-align: center;" for="container"><b>Pod Name</b></label>
+                          <input id="pod_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <label for="image"><b>Image Name</b></label>
+                          <input id="pod_image_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <button type="submit" class="btn1" onclick="launchPod();">Launch</button>
+                          <button type="button" class="btn1 cancel1" onclick="closeForm1();">Close</button>
+                        </div>
+                      </div>
+                      
+                    <button type="button" class="button button2" onclick="openForm2();">Launch Deployment</button>
+                    <div class="form-popup2" id="myForm2">
+                        <div class="form-container2" id="a2">
+                    
+                          <label style="text-align: center;" for="container"><b>Deployment Name</b></label>
+                          <input id="deployment_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <label for="image"><b>Image Name</b></label>
+                          <input id="deployment_image_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <button type="submit" class="btn2" onclick="launchDeploy();">Launch</button>
+                          <button type="button" class="btn2 cancel2" onclick="closeForm2();">Close</button>
+                        </div>
+                      </div>
+
+                    <button type="button" class="button button3" onclick="openForm3();">Delete Pod</button>
+                    <div class="form-popup3" id="myForm3" >
+                        <div class="form-container3" id="a3">
+                    
+                          <label style="text-align: center;" for="container"><b>Pod Name</b></label><br><br>
+                          <input id="delete_pod_name" type="text" placeholder="Enter name" value="" required>
+                    
+                            <br><br>
+                          <button type="submit" class="btn3" onclick="delPod();">Delete</button>
+                          <button type="button" class="btn3 cancel3" onclick="closeForm3();">Close</button>
+                        </div>
+                      </div>
+
+                    <button type="button" class="button button4" onclick="openForm4();">Delete Deployment</button>
+                    <div class="form-popup4" id="myForm4">
+                        <div class="form-container4" id="a4">
+                    
+                          <label style="text-align: center;" for="container"><b>Deployment Name</b></label>
+                          <input id="delete_deployment_name" type="text" placeholder="Enter name" value="" required>
+                          <br><br>
+                          <button type="submit" class="btn4" onclick="delDeploy();">Delete</button>
+                          <button type="button" class="btn4 cancel4" onclick="closeForm4();">Close</button>
+                        </div>
+                      </div>
+                      <button type="button" class="button button8" onclick="delAll()">Delete All Resources</button>
+                      
+                    <button type="button" class="button button5" onclick="openForm5();">Expose</button>
+                    <div class="form-popup5" id="myForm5">
+                        <div class="form-container5" id="a5">
+                    
+                          <label style="text-align: center;" for="container"><b>Deployment Name</b></label>
+                          <input id="expose_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <br><br>
+                    
+                          <button type="submit" class="btn5" onclick="expose();">Expose</button>
+                          <button type="button" class="btn5 cancel5" onclick="closeForm5();">Close</button>
+                        </div>
+                      </div>
+                    <button type="button" class="button button6" onclick="openForm6();">Scale Replicas</button>
+                    <div class="form-popup6" id="myForm6">
+                        <div class="form-container6" id="a6">
+                    
+                          <label style="text-align: center;" for="container"><b>Deployment Name</b></label>
+                          <input id="scale_name" type="text" placeholder="Enter name" value="" required>
+                    
+                          <label for="image"><b>No. of Replicas</b></label>
+                          <input id="replicas" type="text" placeholder="Enter name" value="" required>
+                    
+                          <button type="submit" class="btn6" onclick="scaleReplica();">Launch</button>
+                          <button type="button" class="btn6 cancel6" onclick="closeForm6();">Close</button>
+                        </div>
+                      </div>
+                    
+                      <button type="button" class="button button7" onclick="openForm7();">Other</button>
+                      <div class="form-popup7" id="myForm7">
+                          <div class="form-container7" id="a7">
+                      
+                            <label style="text-align: center;" for="container"><b>[root@localhost ~]#</b></label><br><br>
+                            <input id="cmd_name" type="text" placeholder="Enter command" value="" required>
+                            <br><br>
+                            <button type="submit" class="btn7" onclick="other();">Launch</button>
+                            <button type="button" class="btn7 cancel7" onclick="closeForm7();">Close</button>
+                          </div>
+                        </div>
+                </center>
+            
+ <img id="imglogo" class="logo" src="kubelogo.png"/>
+            <div class="output" id="output_box">
+                <div    class="title">Output </div>
+                <div class="hellobox">
+                    <center><pre><p class="hello" id="output_id">Output will be displayed here..</p></pre></center>
+                </div>    
+            </div>
+                   
+    </body>
+    </html>
