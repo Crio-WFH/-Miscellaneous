@@ -1,6 +1,6 @@
 # Miscellaneous
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <a href="CONTRIBUTING.md"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a>
@@ -54,6 +54,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/sudhanshutiwari264"><img src="https://avatars.githubusercontent.com/u/62458868?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sudhanshu tiwari</b></sub></a><br /><a href="#maintenance-sudhanshutiwari264" title="Maintenance">🚧</a> <a href="https://github.com/Crio-WFH/-Miscellaneous/pulls?q=is%3Apr+reviewed-by%3Asudhanshutiwari264" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/Crio-WFH/-Miscellaneous/commits?author=sudhanshutiwari264" title="Documentation">📖</a> <a href="https://github.com/Crio-WFH/-Miscellaneous/commits?author=sudhanshutiwari264" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Developer-Amritanshu"><img src="https://avatars.githubusercontent.com/u/59793081?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Amritanshu Dev Rawat</b></sub></a><br /><a href="https://github.com/Crio-WFH/-Miscellaneous/commits?author=Developer-Amritanshu" title="Code">💻</a> <a href="#ideas-Developer-Amritanshu" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Developer-Amritanshu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#design-Developer-Amritanshu" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/kelvin0179"><img src="https://avatars.githubusercontent.com/u/56430190?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kelvin0179</b></sub></a><br /><a href="https://github.com/Crio-WFH/-Miscellaneous/commits?author=kelvin0179" title="Code">💻</a> <a href="#ideas-kelvin0179" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-kelvin0179" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#design-kelvin0179" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/simranquirky"><img src="https://avatars.githubusercontent.com/u/60690997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simran Kumari</b></sub></a><br /><a href="https://github.com/Crio-WFH/-Miscellaneous/commits?author=simranquirky" title="Code">💻</a> <a href="#infra-simranquirky" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#design-simranquirky" title="Design">🎨</a></td>
   </tr>
 </table>
 

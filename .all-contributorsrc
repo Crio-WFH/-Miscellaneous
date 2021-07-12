@@ -90,6 +90,17 @@
         "infra",
         "design"
       ]
+    },
+    {
+      "login": "simranquirky",
+      "name": "Simran Kumari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60690997?v=4",
+      "profile": "https://github.com/simranquirky",
+      "contributions": [
+        "code",
+        "infra",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
