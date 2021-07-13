@@ -14,6 +14,9 @@ Working of the app video can be found at : https://drive.google.com/file/d/1zQzW
 
 
 Step 1: Go to the add tab in the side bar of the application and add a task name, status, deadline details and click the add task button. After saving you can view the task list and download it in CSV format.
+
 Step 2: To update any task, go to the update tab in the side bar, select a task that needs to be updated and edit the changes you need, and update the task.
+
 Step 3: If for any reason you want to delete a task, go to the delete tab on the sidebar, select the task to delete and delete it. You can view the updated list.
+
 Step 4: If you want to listen to soothing and relaxing music while completing your tasks, you can go to music tab on the side bar, select a theme of music you like and play the youtube video of the music. 
