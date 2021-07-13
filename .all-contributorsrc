@@ -101,6 +101,17 @@
         "infra",
         "design"
       ]
+    },
+    {
+      "login": "bhargavi157",
+      "name": "Bhargavi Adusumilli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63589533?v=4",
+      "profile": "https://github.com/bhargavi157",
+      "contributions": [
+        "code",
+        "design",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
