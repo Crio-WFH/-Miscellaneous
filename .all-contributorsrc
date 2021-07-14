@@ -112,6 +112,18 @@
         "design",
         "infra"
       ]
+    },
+    {
+      "login": "PranavPrakasan07",
+      "name": "Pranav Prakasan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59109508?v=4",
+      "profile": "http://www.linkedin.com/in/pranav-prakasan-/",
+      "contributions": [
+        "ideas",
+        "infra",
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
